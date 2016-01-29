@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86C5266E1C5B859900CBFBCD /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C5266D1C5B859900CBFBCD /* AppleScriptObjC.framework */; };
+		86C526721C5B859900CBFBCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C526711C5B859900CBFBCD /* main.m */; };
+		86C526741C5B859900CBFBCD /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 86C526731C5B859900CBFBCD /* AppDelegate.applescript */; };
+		86C526761C5B859900CBFBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C526751C5B859900CBFBCD /* Assets.xcassets */; };
+		86C526791C5B859900CBFBCD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86C526771C5B859900CBFBCD /* MainMenu.xib */; };
+		86C526861C5B8F9C00CBFBCD /* agent in Resources */ = {isa = PBXBuildFile; fileRef = 86C526841C5B8F9C00CBFBCD /* agent */; };
+		86C526871C5B8F9C00CBFBCD /* certs in Resources */ = {isa = PBXBuildFile; fileRef = 86C526851C5B8F9C00CBFBCD /* certs */; };
+		86C526891C5BAAB600CBFBCD /* MEULogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 86C526881C5BAAB600CBFBCD /* MEULogo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86C5266A1C5B859900CBFBCD /* Mac Enrolment Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac Enrolment Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C5266D1C5B859900CBFBCD /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		86C526711C5B859900CBFBCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86C526731C5B859900CBFBCD /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		86C526751C5B859900CBFBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86C526781C5B859900CBFBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		86C5267A1C5B859A00CBFBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C526841C5B8F9C00CBFBCD /* agent */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = agent; sourceTree = "<group>"; };
+		86C526851C5B8F9C00CBFBCD /* certs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = certs; sourceTree = "<group>"; };
+		86C526881C5BAAB600CBFBCD /* MEULogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MEULogo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86C526671C5B859900CBFBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C5266E1C5B859900CBFBCD /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86C526611C5B859900CBFBCD = {
+			isa = PBXGroup;
+			children = (
+				86C5266F1C5B859900CBFBCD /* Mac Enrolment Utility */,
+				86C5266C1C5B859900CBFBCD /* Frameworks */,
+				86C5266B1C5B859900CBFBCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86C5266B1C5B859900CBFBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C5266A1C5B859900CBFBCD /* Mac Enrolment Utility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86C5266C1C5B859900CBFBCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86C5266D1C5B859900CBFBCD /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86C5266F1C5B859900CBFBCD /* Mac Enrolment Utility */ = {
+			isa = PBXGroup;
+			children = (
+				86C526731C5B859900CBFBCD /* AppDelegate.applescript */,
+				86C526751C5B859900CBFBCD /* Assets.xcassets */,
+				86C526771C5B859900CBFBCD /* MainMenu.xib */,
+				86C5267A1C5B859A00CBFBCD /* Info.plist */,
+				86C526701C5B859900CBFBCD /* Supporting Files */,
+			);
+			path = "Mac Enrolment Utility";
+			sourceTree = "<group>";
+		};
+		86C526701C5B859900CBFBCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86C526881C5BAAB600CBFBCD /* MEULogo.png */,
+				86C526841C5B8F9C00CBFBCD /* agent */,
+				86C526851C5B8F9C00CBFBCD /* certs */,
+				86C526711C5B859900CBFBCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86C526691C5B859900CBFBCD /* Mac Enrolment Utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C5267D1C5B859A00CBFBCD /* Build configuration list for PBXNativeTarget "Mac Enrolment Utility" */;
+			buildPhases = (
+				86C526661C5B859900CBFBCD /* Sources */,
+				86C526671C5B859900CBFBCD /* Frameworks */,
+				86C526681C5B859900CBFBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mac Enrolment Utility";
+			productName = "Mac Enrolment Utility";
+			productReference = 86C5266A1C5B859900CBFBCD /* Mac Enrolment Utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86C526621C5B859900CBFBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = gavin;
+				TargetAttributes = {
+					86C526691C5B859900CBFBCD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 86C526651C5B859900CBFBCD /* Build configuration list for PBXProject "Mac Enrolment Utility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86C526611C5B859900CBFBCD;
+			productRefGroup = 86C5266B1C5B859900CBFBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C526691C5B859900CBFBCD /* Mac Enrolment Utility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86C526681C5B859900CBFBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C526891C5BAAB600CBFBCD /* MEULogo.png in Resources */,
+				86C526861C5B8F9C00CBFBCD /* agent in Resources */,
+				86C526761C5B859900CBFBCD /* Assets.xcassets in Resources */,
+				86C526871C5B8F9C00CBFBCD /* certs in Resources */,
+				86C526791C5B859900CBFBCD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86C526661C5B859900CBFBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C526741C5B859900CBFBCD /* AppDelegate.applescript in Sources */,
+				86C526721C5B859900CBFBCD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86C526771C5B859900CBFBCD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C526781C5B859900CBFBCD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86C5267B1C5B859A00CBFBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		86C5267C1C5B859A00CBFBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		86C5267E1C5B859A00CBFBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mac Enrolment Utility/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.gpardoe.Mac-Enrolment-Utility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86C5267F1C5B859A00CBFBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mac Enrolment Utility/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.gpardoe.Mac-Enrolment-Utility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86C526651C5B859900CBFBCD /* Build configuration list for PBXProject "Mac Enrolment Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C5267B1C5B859A00CBFBCD /* Debug */,
+				86C5267C1C5B859A00CBFBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C5267D1C5B859A00CBFBCD /* Build configuration list for PBXNativeTarget "Mac Enrolment Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C5267E1C5B859A00CBFBCD /* Debug */,
+				86C5267F1C5B859A00CBFBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86C526621C5B859900CBFBCD /* Project object */;
+}

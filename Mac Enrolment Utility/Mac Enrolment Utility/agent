@@ -1,0 +1,6 @@
+#!/bin/sh
+
+DIR="$( cd "$( dirname "$0" )" && pwd )"
+
+# Add you Package name Below
+sudo installer -pkg "$DIR/QuickAdd.pkg" -target /
