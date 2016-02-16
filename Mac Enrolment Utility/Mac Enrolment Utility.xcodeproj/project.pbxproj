@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		869AE1A11C73438D00060D9D /* com.apple.macbookpro-15-retina-display.icns in Resources */ = {isa = PBXBuildFile; fileRef = 869AE1A01C73438D00060D9D /* com.apple.macbookpro-15-retina-display.icns */; };
 		86C5266E1C5B859900CBFBCD /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C5266D1C5B859900CBFBCD /* AppleScriptObjC.framework */; };
 		86C526721C5B859900CBFBCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C526711C5B859900CBFBCD /* main.m */; };
 		86C526741C5B859900CBFBCD /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 86C526731C5B859900CBFBCD /* AppDelegate.applescript */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		869AE1A01C73438D00060D9D /* com.apple.macbookpro-15-retina-display.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "com.apple.macbookpro-15-retina-display.icns"; sourceTree = "<group>"; };
 		86C5266A1C5B859900CBFBCD /* Mac Enrolment Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac Enrolment Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C5266D1C5B859900CBFBCD /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		86C526711C5B859900CBFBCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		86C526701C5B859900CBFBCD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				869AE1A01C73438D00060D9D /* com.apple.macbookpro-15-retina-display.icns */,
 				86C526881C5BAAB600CBFBCD /* MEULogo.png */,
 				86C526841C5B8F9C00CBFBCD /* agent */,
 				86C526851C5B8F9C00CBFBCD /* certs */,
@@ -149,6 +152,7 @@
 			files = (
 				86C526891C5BAAB600CBFBCD /* MEULogo.png in Resources */,
 				86C526861C5B8F9C00CBFBCD /* agent in Resources */,
+				869AE1A11C73438D00060D9D /* com.apple.macbookpro-15-retina-display.icns in Resources */,
 				86C526761C5B859900CBFBCD /* Assets.xcassets in Resources */,
 				86C526871C5B8F9C00CBFBCD /* certs in Resources */,
 				86C526791C5B859900CBFBCD /* MainMenu.xib in Resources */,
@@ -305,6 +309,7 @@
 				86C5267F1C5B859A00CBFBCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

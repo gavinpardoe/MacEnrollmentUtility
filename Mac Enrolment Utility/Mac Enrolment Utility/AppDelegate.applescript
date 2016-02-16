@@ -32,6 +32,7 @@ script AppDelegate
         try
             set my statusMessage to "Configuring Time Zone & SSH..."
             tell theWindow to displayIfNeeded()
+            delay 0.0001
             set my theCounter to 1
             do shell script "sleep 3"
             do shell script "systemsetup -setremotelogin on" with administrator privileges
@@ -41,6 +42,7 @@ script AppDelegate
         try
             set my statusMessage to "Setting Machine Name to: " & theName
             tell theWindow to displayIfNeeded()
+            delay 0.0001
             set my theCounter to 2
             do shell script "sleep 4"
             do shell script ("networksetup setcomputername " & theName) with administrator privileges
@@ -51,6 +53,7 @@ script AppDelegate
         try
             set my statusMessage to "Installing Certificates..."
             tell theWindow to displayIfNeeded()
+            delay 0.0001
             set my theCounter to 3
             do shell script "sleep 2"
             set myCerts to POSIX path of (path to resource "certs")
@@ -60,6 +63,7 @@ script AppDelegate
         try
             set my statusMessage to "Installing xxxx Agent... Will Take a While!"
             tell theWindow to displayIfNeeded()
+            delay 0.0001
             set my theCounter to 4
             set myAgent to POSIX path of (path to resource "agent")
             do shell script ("bash " & quoted form of myAgent) with administrator privileges
@@ -68,6 +72,7 @@ script AppDelegate
         try
             set my statusMessage to "Enrollment Complete"
             tell theWindow to displayIfNeeded()
+            delay 0.0001
             set my theCounter to 5
             do shell script "sleep 2"
         end try
